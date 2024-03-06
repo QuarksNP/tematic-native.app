@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "tematic.app",
-    "slug": "tematic.app",
+    "slug": "tematicapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alberto_gzb.tematicapp"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7cc2a2af-c888-4010-b1c7-c7fb6ef93b5c"
+      }
     }
   }
 }
